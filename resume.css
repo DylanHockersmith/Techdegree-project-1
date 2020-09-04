@@ -1,17 +1,46 @@
 body {
-    font-family: "Arial";
+    background-color: #d0f8b0;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+}
+
+.content-area {
+    text-align: center;
 }
 
 .main-image {
-    border: solid black 4px;
+    margin-top: 50px;
+    width: 150px;
+    height: 220px;
     border-radius: 50%;
+    border: 3px solid black;
+    transition: all .5s;
 }
 
 h1 {
-    background-color: #e2e2e2;
+    background-color: #279e2d;
+    border: solid black 3px;
     padding: 5px;
 }
 
 .section-title {
-    text-transform: capitalize;
+    text-transform: uppercase;
+    background-color: #7ce667;
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
 }
