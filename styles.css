@@ -100,7 +100,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #4d28d3;
 }
 
 ul.skills {
@@ -202,6 +202,11 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  .article-img {
+    margin-top: 10px;
+    margin-left: 70px;
   }
 
 }
