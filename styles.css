@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #61beca;
+  background: linear-gradient(white, #4aa9b6);
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(121, 182, 131);
 }
 a:hover {
   color: #6633ff;
@@ -52,7 +52,11 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(96, 224, 117);
+}
+
+.nav a:active {
+  color: #0399ff;
 }
 
 header {
@@ -77,16 +81,17 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: rgb(96, 224, 117);
+  background-color: rgba(184, 151, 124, 0.733);
   color: black;
+  border: solid rgb(43, 36, 5) 3px;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: rgb(10, 54, 12);
-  color: rgb(96, 224, 117);
+  background-color: rgba(80, 52, 30, 0.808);
+  color: rgb(240, 213, 191);
   border: solid rgb(43, 36, 5) 3px;
 }
 .card {
@@ -111,7 +116,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #3dd430;
   color: white;
   padding: 5px 10px;
   margin: 2px;
