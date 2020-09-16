@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: linear-gradient(white, #4aa9b6);
+  background: linear-gradient(to top, rgb(91, 182, 209), lightblue 20%);
 }
 /* Link Styles */
 
@@ -61,7 +61,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/nature-bg.jpg') no-repeat center ;
+  background: linear-gradient(0deg, lightblue, transparent 40%),
+              url('images/nature-bg.jpg') no-repeat center;
+
+
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -210,8 +213,9 @@ a.social:hover {
   }
 
   .article-img {
-    margin-top: 10px;
-    margin-left: 70px;
+      margin-top: 10px;
+      margin-left: 70px;
+    border-radius: 7px;
   }
 
 }
