@@ -40,6 +40,10 @@ a:hover {
   padding: 0;
 }
 
+.name {
+  letter-spacing: 0.1em;
+}
+
 .nav .name {
     display: block;
     margin-right: auto;
@@ -76,21 +80,20 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 220px;
-  border-radius: 50%;
-  border: 3px solid black;
+  border-radius: 45%;
+  border: 3px solid rgb(88, 49, 13);
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: rgba(184, 151, 124, 0.733);
+  background-color: rgba(184, 151, 124, 0.5);
   color: black;
-  border: solid rgb(43, 36, 5) 3px;
   padding: 10px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
+  margin: 20px auto;
 } 
 .location {
   background-color: rgba(80, 52, 30, 0.808);
